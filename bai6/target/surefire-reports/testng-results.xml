@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-13T18:22:52 GMT+07:00" name="Surefire suite" finished-at="2026-03-13T18:23:22 GMT+07:00" duration-ms="30257">
+    <groups>
+    </groups>
+    <test started-at="2026-03-13T18:22:52 GMT+07:00" name="Surefire test" finished-at="2026-03-13T18:23:22 GMT+07:00" duration-ms="30257">
+      <class name="dtm.TextBoxWhiteBoxTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dtm.TextBoxWhiteBoxTest@3e821657]" started-at="2026-03-13T18:22:52 GMT+07:00" name="setup" finished-at="2026-03-13T18:23:07 GMT+07:00" duration-ms="14974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testEmptyName()[pri:0, instance:dtm.TextBoxWhiteBoxTest@3e821657]" started-at="2026-03-13T18:23:07 GMT+07:00" name="testEmptyName" description="TC03 - Name rong van co the submit tren demoqa" finished-at="2026-03-13T18:23:07 GMT+07:00" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TextBoxWhiteBoxTest@3e821657]" started-at="2026-03-13T18:23:07 GMT+07:00" name="tearDown" finished-at="2026-03-13T18:23:08 GMT+07:00" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dtm.TextBoxWhiteBoxTest@3e821657]" started-at="2026-03-13T18:23:08 GMT+07:00" name="setup" finished-at="2026-03-13T18:23:15 GMT+07:00" duration-ms="7357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidEmail()[pri:0, instance:dtm.TextBoxWhiteBoxTest@3e821657]" started-at="2026-03-13T18:23:15 GMT+07:00" name="testInvalidEmail" description="TC02 - Email sai dinh dang" finished-at="2026-03-13T18:23:15 GMT+07:00" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TextBoxWhiteBoxTest@3e821657]" started-at="2026-03-13T18:23:15 GMT+07:00" name="tearDown" finished-at="2026-03-13T18:23:16 GMT+07:00" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dtm.TextBoxWhiteBoxTest@3e821657]" started-at="2026-03-13T18:23:16 GMT+07:00" name="setup" finished-at="2026-03-13T18:23:21 GMT+07:00" duration-ms="5719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidInput()[pri:0, instance:dtm.TextBoxWhiteBoxTest@3e821657]" started-at="2026-03-13T18:23:21 GMT+07:00" name="testValidInput" description="TC01 - Nhap du thong tin hop le" finished-at="2026-03-13T18:23:22 GMT+07:00" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TextBoxWhiteBoxTest@3e821657]" started-at="2026-03-13T18:23:22 GMT+07:00" name="tearDown" finished-at="2026-03-13T18:23:22 GMT+07:00" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.TextBoxWhiteBoxTest -->
+      <class name="dtm.PhoneValidatorTest">
+        <test-method signature="testEmptyPhone()[pri:0, instance:dtm.PhoneValidatorTest@31000e60]" started-at="2026-03-13T18:22:52 GMT+07:00" name="testEmptyPhone" description="TC02 - So dien thoai rong phai khong hop le" finished-at="2026-03-13T18:22:52 GMT+07:00" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPhone -->
+        <test-method signature="testInvalidCharacters()[pri:0, instance:dtm.PhoneValidatorTest@31000e60]" started-at="2026-03-13T18:22:52 GMT+07:00" name="testInvalidCharacters" description="TC03 - Chua ky tu khong hop le phai tra ve false" finished-at="2026-03-13T18:22:52 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCharacters -->
+        <test-method signature="testInvalidLength()[pri:0, instance:dtm.PhoneValidatorTest@31000e60]" started-at="2026-03-13T18:22:52 GMT+07:00" name="testInvalidLength" description="TC07 - Do dai khong du 10 chu so phai tra ve false" finished-at="2026-03-13T18:22:52 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLength -->
+        <test-method signature="testInvalidPrefix()[pri:0, instance:dtm.PhoneValidatorTest@31000e60]" started-at="2026-03-13T18:22:52 GMT+07:00" name="testInvalidPrefix" description="TC06 - Dau so khong hop le phai tra ve false" finished-at="2026-03-13T18:22:52 GMT+07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPrefix -->
+        <test-method signature="testNullPhone()[pri:0, instance:dtm.PhoneValidatorTest@31000e60]" started-at="2026-03-13T18:22:52 GMT+07:00" name="testNullPhone" description="TC01 - So dien thoai null phai khong hop le" finished-at="2026-03-13T18:22:52 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullPhone -->
+        <test-method signature="testValid03()[pri:0, instance:dtm.PhoneValidatorTest@31000e60]" started-at="2026-03-13T18:22:52 GMT+07:00" name="testValid03" description="TC04 - So dien thoai hop le bat dau bang 03" finished-at="2026-03-13T18:22:52 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValid03 -->
+        <test-method signature="testValidPlus84()[pri:0, instance:dtm.PhoneValidatorTest@31000e60]" started-at="2026-03-13T18:22:52 GMT+07:00" name="testValidPlus84" description="TC05 - So dien thoai hop le bat dau bang +84" finished-at="2026-03-13T18:22:52 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidPlus84 -->
+        <test-method signature="testValidWithSpaces()[pri:0, instance:dtm.PhoneValidatorTest@31000e60]" started-at="2026-03-13T18:22:52 GMT+07:00" name="testValidWithSpaces" description="TC08 - So dien thoai hop le co khoang trang" finished-at="2026-03-13T18:22:52 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidWithSpaces -->
+      </class> <!-- dtm.PhoneValidatorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

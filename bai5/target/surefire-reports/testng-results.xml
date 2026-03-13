@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-13T17:39:56 GMT+07:00" name="Surefire suite" finished-at="2026-03-13T17:39:56 GMT+07:00" duration-ms="37">
+    <groups>
+    </groups>
+    <test started-at="2026-03-13T17:39:56 GMT+07:00" name="Surefire test" finished-at="2026-03-13T17:39:56 GMT+07:00" duration-ms="37">
+      <class name="dtm.VayVonMCDCTest">
+        <test-method signature="testMCDC_DiemTinDungDocLap_Duoi700()[pri:0, instance:dtm.VayVonMCDCTest@37e547da]" started-at="2026-03-13T17:39:56 GMT+07:00" name="testMCDC_DiemTinDungDocLap_Duoi700" description="MC/DC cho dieu kien diem tin dung (D): diem tin dung duoi 700, giu nguyen A, B, C=false" finished-at="2026-03-13T17:39:56 GMT+07:00" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_DiemTinDungDocLap_Duoi700 -->
+        <test-method signature="testMCDC_DiemTinDungDocLap_Tu700TroLen()[pri:0, instance:dtm.VayVonMCDCTest@37e547da]" started-at="2026-03-13T17:39:56 GMT+07:00" name="testMCDC_DiemTinDungDocLap_Tu700TroLen" description="MC/DC cho dieu kien diem tin dung (D): diem tin dung tu 700 tro len, giu nguyen A, B, C=false" finished-at="2026-03-13T17:39:56 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_DiemTinDungDocLap_Tu700TroLen -->
+        <test-method signature="testMCDC_TaiSanBaoLanhDocLap_CoTaiSan()[pri:0, instance:dtm.VayVonMCDCTest@37e547da]" started-at="2026-03-13T17:39:56 GMT+07:00" name="testMCDC_TaiSanBaoLanhDocLap_CoTaiSan" description="MC/DC cho dieu kien tai san bao lanh (C): co tai san bao lanh, giu nguyen A, B, D=false" finished-at="2026-03-13T17:39:56 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_TaiSanBaoLanhDocLap_CoTaiSan -->
+        <test-method signature="testMCDC_TaiSanBaoLanhDocLap_KhongCoTaiSan()[pri:0, instance:dtm.VayVonMCDCTest@37e547da]" started-at="2026-03-13T17:39:56 GMT+07:00" name="testMCDC_TaiSanBaoLanhDocLap_KhongCoTaiSan" description="MC/DC cho dieu kien tai san bao lanh (C): khong co tai san, giu nguyen A, B, D=false" finished-at="2026-03-13T17:39:56 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_TaiSanBaoLanhDocLap_KhongCoTaiSan -->
+        <test-method signature="testMCDC_ThuNhapDocLap_Duoi10Trieu()[pri:0, instance:dtm.VayVonMCDCTest@37e547da]" started-at="2026-03-13T17:39:56 GMT+07:00" name="testMCDC_ThuNhapDocLap_Duoi10Trieu" description="MC/DC cho dieu kien thu nhap (B): thu nhap thap hon 10 trieu, giu nguyen A, C, D" finished-at="2026-03-13T17:39:56 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_ThuNhapDocLap_Duoi10Trieu -->
+        <test-method signature="testMCDC_ThuNhapDocLap_Tu10TrieuTroLen()[pri:0, instance:dtm.VayVonMCDCTest@37e547da]" started-at="2026-03-13T17:39:56 GMT+07:00" name="testMCDC_ThuNhapDocLap_Tu10TrieuTroLen" description="MC/DC cho dieu kien thu nhap (B): thu nhap tu 10 trieu tro len, giu nguyen A, C, D" finished-at="2026-03-13T17:39:56 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_ThuNhapDocLap_Tu10TrieuTroLen -->
+        <test-method signature="testMCDC_TuoiDocLap_Du22TroLen()[pri:0, instance:dtm.VayVonMCDCTest@37e547da]" started-at="2026-03-13T17:39:56 GMT+07:00" name="testMCDC_TuoiDocLap_Du22TroLen" description="MC/DC cho dieu kien tuoi (A): tuoi du 22 tro len, giu nguyen B, C, D" finished-at="2026-03-13T17:39:56 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_TuoiDocLap_Du22TroLen -->
+        <test-method signature="testMCDC_TuoiDocLap_ThapHon22()[pri:0, instance:dtm.VayVonMCDCTest@37e547da]" started-at="2026-03-13T17:39:56 GMT+07:00" name="testMCDC_TuoiDocLap_ThapHon22" description="MC/DC cho dieu kien tuoi (A): doi tuoi tu du sang khong du, giu nguyen B, C, D" finished-at="2026-03-13T17:39:56 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_TuoiDocLap_ThapHon22 -->
+      </class> <!-- dtm.VayVonMCDCTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
